@@ -1,0 +1,16 @@
+import matplotlib.pyplot as plt
+
+# 데이터 생성
+x = [1, 2, 3, 4, 5]  # x 좌표
+y = [2, 4, 6, 8, 10]  # y 좌표
+
+# 산포도 그리기
+plt.scatter(x, y)
+
+# 그래프 타이틀 및 축 제목 설정
+plt.title('Scatter Plot')
+plt.xlabel('X-axis')
+plt.ylabel('Y-axis')
+
+# 그래프 출력
+plt.show()
